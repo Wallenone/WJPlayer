@@ -33,6 +33,8 @@
 static const CGFloat ZFPlayerAnimationTimeInterval             = 7.0f;
 static const CGFloat ZFPlayerControlBarAutoFadeOutTimeInterval = 0.35f;
 
+#define SCREEN_RADIO [UIScreen mainScreen].bounds.size.height/667
+
 @interface ZFPlayerControlView () <UIGestureRecognizerDelegate>
 @property(nonatomic, strong) UIImageView *screenImgView;
 /** 标题 */
