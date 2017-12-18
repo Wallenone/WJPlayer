@@ -73,7 +73,6 @@
 		E51C10DC1FE770D500CA522F /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
 		E51C10DD1FE770D500CA522F /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
 		E51C10DE1FE770D500CA522F /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
-		E51C10DF1FE770D500CA522F /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
 		E51C10E01FE770D500CA522F /* ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayer.h; sourceTree = "<group>"; };
 		E51C10E11FE770D500CA522F /* ZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlView.h; sourceTree = "<group>"; };
 		E51C10E21FE770D500CA522F /* ZFPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerControlView.m; sourceTree = "<group>"; };
@@ -82,7 +81,6 @@
 		E51C10E51FE770D500CA522F /* ZFPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerModel.m; sourceTree = "<group>"; };
 		E51C10E61FE770D500CA522F /* ZFPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerView.h; sourceTree = "<group>"; };
 		E51C10E71FE770D500CA522F /* ZFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerView.m; sourceTree = "<group>"; };
-		E51C10F91FE7772F00CA522F /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
 		E55BA1C52642544E36613A4B293744B2 /* Pods-WJPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +118,6 @@
 		43F7AC68FEC6526D776F74E62C003DE4 /* WJPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				E51C10F71FE7772F00CA522F /* Assets */,
 				E51C10C41FE770D500CA522F /* Classes */,
 				0C1ABB41F4BDA435E34EAA0E52A0F8A1 /* Support Files */,
 			);
@@ -216,7 +213,6 @@
 				E51C10DC1FE770D500CA522F /* MMMaterialDesignSpinner.m */,
 				E51C10DD1FE770D500CA522F /* ZFBrightnessView.h */,
 				E51C10DE1FE770D500CA522F /* ZFBrightnessView.m */,
-				E51C10DF1FE770D500CA522F /* ZFPlayer.bundle */,
 				E51C10E01FE770D500CA522F /* ZFPlayer.h */,
 				E51C10E11FE770D500CA522F /* ZFPlayerControlView.h */,
 				E51C10E21FE770D500CA522F /* ZFPlayerControlView.m */,
@@ -248,15 +244,6 @@
 				E51C10DA1FE770D500CA522F /* UIWindow+CurrentViewController.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		E51C10F71FE7772F00CA522F /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				E51C10F91FE7772F00CA522F /* ZFPlayer.bundle */,
-			);
-			name = Assets;
-			path = WJPlayer/Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
