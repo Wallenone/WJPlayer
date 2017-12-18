@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wanjiehuizhaofang/WJPlayer'
+  s.homepage         = 'www.baidu.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wanjiehuizhaofang' => 'wanjie@huizhaofang.com' }
-  s.source           = { :git => 'https://github.com/wanjiehuizhaofang/WJPlayer.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Wallenone/WJPlayer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -39,4 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+    s.resource     = 'ZFPlayer/ZFPlayer.bundle'
+    s.framework    = 'UIKit','MediaPlayer'
+    s.dependency 'Masonry'
 end
