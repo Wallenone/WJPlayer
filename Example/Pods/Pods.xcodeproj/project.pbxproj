@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B9A2E97D7C41D015E09142C54ABB48F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B0261C04FF76CAA3913DA7E8E1255DC9 /* ReplaceMe.m */; };
 		5C03E327ECB3470A19FFA2B2D4E61C41 /* WJPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7F280066020051F5F2387DDD61287A /* WJPlayer-dummy.m */; };
 		617749BF15D35655CF5123B3758C6AA4 /* Pods-WJPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31880CA0748B18B44B22FEAF561842DE /* Pods-WJPlayer_Example-dummy.m */; };
 		8C7E63AB934EFF0C9FB6CBC26A82BFD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9EB381C72592533861ABBCFCD93634A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E51C10E81FE770D500CA522F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E51C10C61FE770D500CA522F /* ReplaceMe.m */; };
 		E51C10E91FE770D500CA522F /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = E51C10C91FE770D500CA522F /* ASValuePopUpView.m */; };
 		E51C10EA1FE770D500CA522F /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E51C10CB1FE770D500CA522F /* ASValueTrackingSlider.m */; };
 		E51C10EB1FE770D500CA522F /* UIAlertController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E51C10CE1FE770D500CA522F /* UIAlertController+ZFPlayerRotation.m */; };
@@ -51,11 +49,8 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB0D82E1B7ED67F3551C393619AF6FEC /* Pods-WJPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B0261C04FF76CAA3913DA7E8E1255DC9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WJPlayer/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		CE9FFF18B8BEC6AD5BB777CD50BB105E /* WJPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJPlayer-prefix.pch"; sourceTree = "<group>"; };
 		DC44D90E3E704CB7B9EB7B550E63D2FF /* WJPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJPlayer.xcconfig; sourceTree = "<group>"; };
-		E51C10C51FE770D500CA522F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		E51C10C61FE770D500CA522F /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		E51C10C81FE770D500CA522F /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
 		E51C10C91FE770D500CA522F /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
 		E51C10CA1FE770D500CA522F /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
@@ -87,6 +82,7 @@
 		E51C10E51FE770D500CA522F /* ZFPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerModel.m; sourceTree = "<group>"; };
 		E51C10E61FE770D500CA522F /* ZFPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerView.h; sourceTree = "<group>"; };
 		E51C10E71FE770D500CA522F /* ZFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerView.m; sourceTree = "<group>"; };
+		E51C10F91FE7772F00CA522F /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
 		E55BA1C52642544E36613A4B293744B2 /* Pods-WJPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,8 +120,8 @@
 		43F7AC68FEC6526D776F74E62C003DE4 /* WJPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				E51C10F71FE7772F00CA522F /* Assets */,
 				E51C10C41FE770D500CA522F /* Classes */,
-				B0261C04FF76CAA3913DA7E8E1255DC9 /* ReplaceMe.m */,
 				0C1ABB41F4BDA435E34EAA0E52A0F8A1 /* Support Files */,
 			);
 			name = WJPlayer;
@@ -202,8 +198,6 @@
 		E51C10C41FE770D500CA522F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E51C10C51FE770D500CA522F /* .gitkeep */,
-				E51C10C61FE770D500CA522F /* ReplaceMe.m */,
 				E51C10C71FE770D500CA522F /* ZFPlayer */,
 			);
 			name = Classes;
@@ -254,6 +248,15 @@
 				E51C10DA1FE770D500CA522F /* UIWindow+CurrentViewController.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		E51C10F71FE7772F00CA522F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E51C10F91FE7772F00CA522F /* ZFPlayer.bundle */,
+			);
+			name = Assets;
+			path = WJPlayer/Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,7 +327,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9A2E97D7C41D015E09142C54ABB48F /* ReplaceMe.m in Sources */,
 				5C03E327ECB3470A19FFA2B2D4E61C41 /* WJPlayer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,7 +335,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E51C10E81FE770D500CA522F /* ReplaceMe.m in Sources */,
 				E51C10F61FE770D500CA522F /* ZFPlayerView.m in Sources */,
 				E51C10EA1FE770D500CA522F /* ASValueTrackingSlider.m in Sources */,
 				E51C10EB1FE770D500CA522F /* UIAlertController+ZFPlayerRotation.m in Sources */,
