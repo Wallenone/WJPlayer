@@ -33,7 +33,6 @@
 static const CGFloat ZFPlayerAnimationTimeInterval             = 7.0f;
 static const CGFloat ZFPlayerControlBarAutoFadeOutTimeInterval = 0.35f;
 
-#define SCREEN_RADIO [UIScreen mainScreen].bounds.size.height/667
 
 @interface ZFPlayerControlView () <UIGestureRecognizerDelegate>
 @property(nonatomic, strong) UIImageView *screenImgView;
@@ -519,7 +518,7 @@ static const CGFloat ZFPlayerControlBarAutoFadeOutTimeInterval = 0.35f;
     self.fullScreen             = NO;
     self.lockBtn.hidden         = !self.isFullScreen;
     self.fullScreenBtn.selected = self.isFullScreen;
-    self.backBtn.frame=CGRectMake(screen_width-50*SCREEN_RADIO, 0, 60*SCREEN_RADIO, 60*SCREEN_RADIO);
+    self.backBtn.frame=CGRectMake(ScreenWidth-50*([UIScreen mainScreen].bounds.size.height/667), 0, 60*([UIScreen mainScreen].bounds.size.height/667), 60*([UIScreen mainScreen].bounds.size.height/667));
 //    [self.backBtn mas_remakeConstraints:^(MASConstraintMaker *make) {
 //        make.top.equalTo(self.topImageView.mas_top).offset(3);
 //        make.leading.equalTo(self).offset(10);
