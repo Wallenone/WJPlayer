@@ -504,7 +504,7 @@ static const CGFloat ZFPlayerControlBarAutoFadeOutTimeInterval = 0.35f;
     self.fullScreen             = YES;
     self.lockBtn.hidden         = !self.isFullScreen;
     self.fullScreenBtn.selected = self.isFullScreen;
-    [self.backBtn setImage:ZFPlayerImage(@"icon_close") forState:UIControlStateNormal];
+    [self.backBtn setImage:[UIImage imageNamed:@"icon_close"] forState:UIControlStateNormal];
 //    [self.backBtn mas_remakeConstraints:^(MASConstraintMaker *make) {
 //        make.top.equalTo(self.topImageView.mas_top).offset(23);
 //        make.leading.equalTo(self.topImageView.mas_leading).offset(10);
@@ -618,7 +618,7 @@ static const CGFloat ZFPlayerControlBarAutoFadeOutTimeInterval = 0.35f;
 - (UIButton *)backBtn {
     if (!_backBtn) {
         _backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_backBtn setImage:ZFPlayerImage(@"icon_close") forState:UIControlStateNormal];
+        [_backBtn setImage:[UIImage imageNamed:@"icon_close"] forState:UIControlStateNormal];
         [_backBtn addTarget:self action:@selector(backBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _backBtn;
