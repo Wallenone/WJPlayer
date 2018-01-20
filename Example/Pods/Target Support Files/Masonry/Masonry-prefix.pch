@@ -10,7 +10,3 @@
 #endif
 #endif
 
-
-FOUNDATION_EXPORT double WJPlayerVersionNumber;
-FOUNDATION_EXPORT const unsigned char WJPlayerVersionString[];
-
